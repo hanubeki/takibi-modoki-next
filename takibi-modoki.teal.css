@@ -1,0 +1,12 @@
+[data-color-scheme=light] {
+    --takibi-modoki-base-hue: 225deg;
+    --takibi-modoki-base-sat: 1.5%;
+    --takibi-modoki-highlight-hue: 195deg;
+
+    --base-color-bg: oklch(95% var(--takibi-modoki-base-sat) var(--takibi-modoki-base-hue));
+    --base-color-bg-desktop: oklch(92% var(--takibi-modoki-base-sat) var(--takibi-modoki-base-hue));
+    --base-color-fg: oklch(45% var(--takibi-modoki-base-sat) var(--takibi-modoki-base-hue));
+
+    --base-color-fg-accent: oklch(70% 40% var(--takibi-modoki-highlight-hue));
+    --base-color-bg-accent: oklch(80% 20% var(--takibi-modoki-highlight-hue));
+}
